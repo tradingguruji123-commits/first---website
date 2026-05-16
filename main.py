@@ -1,8 +1,10 @@
 import OS
 
-# We are using OS module to get the directories
-print(OS.listdir())
+print(OS.listdir)
+print(OS.get_bloking())
 
-print(OS.getcwd())
+
+print(OS.chdir("/"))
+
 
 
